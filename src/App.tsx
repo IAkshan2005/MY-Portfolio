@@ -608,7 +608,7 @@ export default function App() {
                   <div className="absolute inset-0 border border-cyber-pink/50 rounded-2xl -rotate-3 group-hover:-rotate-6 transition duration-500"></div>
                   <div className="w-full h-full relative z-10 rounded-2xl overflow-hidden border border-cyber bg-black">
                     <div className="absolute top-0 left-0 w-full h-1 bg-cyber/80 opacity-50 z-20 animate-scan drop-shadow-[0_0_8px_rgba(7,247,255,0.8)]"></div>
-                    <img src="/profile.jpg" alt="Akshan Profile Code" className="w-full h-full object-cover filter grayscale sepia-[.3] hue-rotate-[180deg] group-hover:grayscale-0 group-hover:sepia-0 transition duration-700" />
+                    <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Akshan Profile Code" className="w-full h-full object-cover filter grayscale sepia-[.3] hue-rotate-[180deg] group-hover:grayscale-0 group-hover:sepia-0 transition duration-700" />
                   </div>
                 </div>
 
