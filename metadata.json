@@ -1,0 +1,6 @@
+{
+  "name": "Akshan Portfolio",
+  "description": "High-end cyberpunk-minimalist portfolio for Akshan, a software engineer crafting digital experiences with neon-lit clarity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
